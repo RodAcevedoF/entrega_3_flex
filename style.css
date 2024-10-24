@@ -59,11 +59,16 @@ nav > img {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--rtc-letter-color)
+}
 .header-li {
   align-items: center;
   border-radius: 5px;
   border-right: 2px solid var(--rtc-opacity-color);
   color: var(--rtc-letter-color);
+  text-decoration: none;
   display: flex;
   font-size: 16px;
   font-weight: bold;
@@ -251,9 +256,9 @@ main {
   border-radius: 5px;
   border: none;
   color: var(--rtc-lightletter-color);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bolder;
-  height: auto;
+  height: 3em;
   width: 10em;
 }
 
