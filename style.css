@@ -316,7 +316,11 @@ footer > a {
   justify-content: space-evenly;
   width: 300px;
 }
-
+.img-footer > a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .img-footer > img {
   object-fit: contain;
 }
@@ -353,10 +357,15 @@ footer > a {
     gap: 10px;
     justify-content: flex-end;
   }
+  .icons > a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
   .resp-icon {
     animation: pop 2s;
     height: auto;
-    width: 2em;
+    width: 2.5em;
   }
 
   .main-nav > ul {
