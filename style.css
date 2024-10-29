@@ -176,7 +176,7 @@ main {
   width: 80%;
 }
 
-.article-div {
+.section-article {
   display: flex;
   flex-flow: row wrap;
   height: auto;
@@ -185,7 +185,7 @@ main {
   width: 100%;
 }
 
-.article-div > article {
+.section-article > article {
   align-items: end;
   border-bottom: 2px solid var(--rtc-letter-color);
   display: flex;
